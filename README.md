@@ -38,10 +38,12 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
-Full Adder
+**Full Adder**
+
 ![full-adder-truth-table](https://github.com/user-attachments/assets/43f491be-b330-4423-a75b-24de8afb1217)
 
-Full Subtractor
+**Full Subtractor**
+
 ![full-subtractor-truth-table](https://github.com/user-attachments/assets/63503d8c-6780-444a-a2db-88bf31d2fc95)
 
 **Procedure**
@@ -57,7 +59,8 @@ Full Subtractor
 5.For different input combinations generate the timing diagram.
 
 **Program:**
-Full Adder
+
+**Full Adder**
 ```
 //full adder 
 module exp4a(sum,cout,a,b,cin);
@@ -77,7 +80,7 @@ or(cout,c2,c2);
 
 endmodule
 ```
-Full Subtractor
+**Full Subtractor**
 ```
 module exp4b(df,bo,a,b,bin);
 output df,bo;
@@ -96,10 +99,20 @@ RegisterNumber: 24005057
 */
 
 **RTL Schematic**
-![exp4b](https://github.com/user-attachments/assets/81dea64b-de2a-4346-ae68-b4db0a9a69ab)
+
+**Full Adder**
+![exp4a](https://github.com/user-attachments/assets/5b2d960a-154e-4358-87b3-4b1e62afc396)
+
+**Full Sutractor**
+![exp4b](https://github.com/user-attachments/assets/1b1c78a2-a145-4ce1-9fdd-42ef24feb346)
 
 **Output Timing Waveform**
-![Waveform result screenshot 4b](https://github.com/user-attachments/assets/3f682dbe-46f2-4b82-be92-fc4c7a46ffbb)
+
+**Full Adder**
+![Waveform result screenshot 4a](https://github.com/user-attachments/assets/086fd38d-e4d4-490d-bf68-9220823cbaab)
+
+**Full Subtractor**
+![Waveform result screenshot 4b](https://github.com/user-attachments/assets/8c13d677-c9b9-4f5d-a528-c17683ea7ead)
 
 **Result:**
 
